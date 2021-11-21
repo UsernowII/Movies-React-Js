@@ -69,18 +69,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### `JSON Server Node.js CI
+## `JSON Server Node.js CI
 Get a full fake REST API with zero coding in less than 30 seconds (seriously)
 https://github.com/typicode/json-server#json-server-
 
-Install JSON Server
+### Install JSON Server
 
 $npm install -g json-server
 
-start document moviesDB.json like json getting from Api
+### start document moviesDB.json like json getting from Api
 $ json-server --watch moviesDB.json 
 
-You can start JSON Server on other ports with the --port flag:
+### You can start JSON Server on other ports with the --port flag:
 $ json-server --watch moviesDB --port 3004
 
 Now if you go to http://localhost:3004/movies/, you'll get json with the movies.
